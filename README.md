@@ -6,32 +6,41 @@
 
 ### Links and Resources
 
-- [submission PR](http://xyz.com)
-- [ci/cd](http://xyz.com) (GitHub Actions)
-- [back-end server url](http://xyz.com) (when applicable)
-- [front-end application](http://xyz.com) (when applicable)
+- [submission PR](https://github.com/ammarBadwan-401-advanced-javascript/lab-00/pull/1)
+- [ci/cd](https://travis-ci.org/github/ammarBadwan-401-advanced-javascript/lab-00/builds/687920939)
+- [front-end application](https://ammar-lab00.herokuapp.com/)
+
+#### Documentation
+* [jsdoc](https://ammar-lab00.herokuapp.com/docs/)
+
+### Modules
+#### `pol.js`
+
+#### Exported Values and Methods
+
+#### `isAlive(dead) -> boolean`
+Returns true/false to indicate how the server works.
 
 ### Setup
+#### `.env` requirements
+* `PORT` - Port Number
 
-#### `.env` requirements (where applicable)
-
-i.e.
-
-- `PORT` - Port Number
-- `MONGODB_URI` - URL to the running mongo instance/db
 
 #### How to initialize/run your application (where applicable)
 
-- e.g. `npm start`
+* `npm start`
+* Endpoint: `/`
+  * Returns a boolean
+* Endpoint: `/docs`
+  * Returns JSDoc Documenation Pages
 
 #### How to use your library (where applicable)
 
 #### Tests
 
-- How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+* Unit Tests: `npm test`
+* Lint Tests: `npm run lint`
 
 #### UML
 
-Link to an image of the UML for your application and response to events
+![UML Diagram](whiteboard.jpg)
